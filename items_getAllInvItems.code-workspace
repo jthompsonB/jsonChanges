@@ -1,106 +1,101 @@
 {
-  "ItemID": "00000000-0000-0000-0000-000000000000",
-  "Description": "string",
-  "PosDescription1": "string",
-  "PosDescription2": "string",
-  "DefaultRetail": 0,
-  "Cost": 0,
-  "SKU": "string",
-  "Dimension1": "string",
-  "Dimension2": "string",
-  "Dimension3": "string",
-  "Dimension4": "string",
-  "Dimension5": "string",
-  "Dimension6": "string",
-  "Level1ID": "00000000-0000-0000-0000-000000000000",
-  "Level1Code": "string",
-  "Level1Description": "string",
-  "Level2ID": "00000000-0000-0000-0000-000000000000",
-  "Level2Code": "string",
-  "Level2Description": "string",
-  "Level3ID": "00000000-0000-0000-0000-000000000000",
-  "Level3Code": "string",
-  "Level3Description": "string",
-  "Level4ID": "00000000-0000-0000-0000-000000000000",
-  "Level4Code": "string",
-  "Level4Description": "string",
-  "NoCount": true,
-  "RecipeID": "00000000-0000-0000-0000-000000000000",
-  "MatrixID": "00000000-0000-0000-0000-000000000000",
-  "ShippingWeight": 0,
-  "ShippingHeight": 0,
-  "ShippingWidth": 0,
-  "ShippingLength": 0,
-  "ParentItemID": "00000000-0000-0000-0000-000000000000",
-  "UOM": "string",
-  "UPCs": [
+    "id": "string",
+    "description": "string",
+    "posDescription1": "string",
+    "posDescription2": "string",
+    "sku": "string",
+    "noCount": true,
+    "shippingWeight": 0,
+    "shippingHeight": 0,
+    "shippingWidth": 0,
+    "shippingLength": 0,
+    "uom": "string",
+    "childCount": 0,
+    "childUsage": 0,
+    "upc": [
     "string"
-  ],
-  "WebProperties": {
-    "WebTitle": "string",
-    "WebDescription": "string",
-    "WebExtendedDescription": "string",
-    "WebAvailableDate": "2020-06-30T15:29:41.326Z",
-    "WebExpiresDate": "2020-06-30T15:29:41.326Z",
-    "WebSale": true,
-    "WebItemSaleRetail": 0,
-    "WebItemSalePercentOff": 0,
-    "WebSaleBegins": "2020-06-30T15:29:41.326Z",
-    "WebSaleEnds": "2020-06-30T15:29:41.326Z",
-    "WebAvailable": true,
-    "WebNewItem": true,
-    "WebLastChance": true,
-    "WebTaxable": true
-  },
-  "Pictures": {
-    "Picture1FileThumb": "string",
-    "Picture1Alternate": "string",
-    "Picture1FileMain": "string",
-    "Picture2Alternate": "string",
-    "Picture2FileMain": "string",
-    "Picture2FileThumb": "string",
-    "Picture3Alternate": "string",
-    "Picture3FileMain": "string",
-    "Picture3FileThumb": "string"
-  },
-  "Active": true,
-  "Deleted": true,
-  "LastUpdated": "2020-06-30T15:29:41.327Z",
-  "Stores": [
-    {
-      "ItemID": "00000000-0000-0000-0000-000000000000",
-      "StoreID": "00000000-0000-0000-0000-000000000000",
-      "Description": "string",
-      "Code": "string",
-      "RevenueCenterNumber": "string",
-      "OnHand": 0,
-      "RetailPrice": 0,
-      "RetailPrice1": 0,
-      "RetailPrice2": 0,
-      "RetailPrice3": 0,
-      "RetailPrice4": 0,
-      "RetailPrice5": 0,
-      "RetailPrice6": 0,
-      "RetailPrice7": 0,
-      "RetailPrice8": 0,
-      "RetailPrice9": 0,
-      "RetailPrice10": 0,
-      "Cost": 0,
-      "Available": true,
-      "Flags": [
-        "string"
-      ],
-      "Interfaces": {}
+    ],
+    "active": true,
+    "lastUpdated": "2020-06-29T20:46:34Z",
+    "dimension1": {
+    "id": "string",
+    "description": "string"
+    },
+    "dimension2": {
+    "id": "string",
+    "description": "string"
+    },
+    "dimension3": {
+    "id": "string",
+    "description": "string"
+    },
+    "dimension4": {
+    "id": "string",
+    "description": "string"
+    },
+    "dimension5": {
+    "id": "string",
+    "description": "string"
+    },
+    "dimension6": {
+    "id": "string",
+    "description": "string"
+    },
+    "dimension7": {
+    "id": "string",
+    "description": "string"
+    },
+    "dimension8": {
+    "id": "string",
+    "description": "string"
+    },
+    "dimension9": {
+    "id": "string",
+    "description": "string"
+    },
+    "dimension10": {
+    "id": "string",
+    "description": "string"
+    },
+    "level": {
+    "id": "string",
+    "code": "string",
+    "description": "string"
+    },
+    "parentItem": {
+    "id": "string"
+    },
+    "recipe": {
+    "id": "string"
+    },
+    "matrix": {
+    "id": "string"
+    },
+    "webProperties": {
+    "title": "string",
+    "description": "string",
+    "extendedDescription": "string",
+    "availableDate": "2020-06-29T20:46:34Z",
+    "expiresDate": "2020-06-29T20:46:34Z",
+    "sale": true,
+    "itemSaleRetail": 0,
+    "itemSalePercentOff": 0,
+    "saleBegins": "2020-06-29T20:46:34Z",
+    "saleEnds": "2020-06-29T20:46:34Z",
+    "available": true,
+    "flagA": true,
+    "flagB": true,
+    "flagC": true,
+    "tags": "string",
+    "productType": "string"
+    },
+    "stores": [
+    {}
+    ],
+    "vendors": [
+    {}
+    ],
+    "images": [
+    {}
+    ]
     }
-  ],
-  "Vendors": [
-    {
-      "ItemID": "00000000-0000-0000-0000-000000000000",
-      "VendorID": "00000000-0000-0000-0000-000000000000",
-      "Code": "string",
-      "Description": "string",
-      "VendorSKU": "string",
-      "Price": 0
-    }
-  ]
-}
